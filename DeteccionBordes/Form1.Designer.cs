@@ -92,8 +92,8 @@
             this.sobelParametersToolStripMenuItem,
             this.caniToolStripMenuItem,
             this.menuCannyToolStripMenuItem,
-            this.laplacianToolStripMenuItem1,
-            this.sobelToolStripMenuItem1});
+            this.sobelToolStripMenuItem1,
+            this.laplacianToolStripMenuItem1});
             this.edgesToolStripMenuItem.Name = "edgesToolStripMenuItem";
             // 
             // cannyParametersToolStripMenuItem

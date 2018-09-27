@@ -121,33 +121,33 @@
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="archivoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 20</value>
-  </data>
   <data name="sobelToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
-  <data name="&gt;&gt;sobelToolStripMenuItem.Type" xml:space="preserve">
+  <data name="&gt;&gt;sobelParametersToolStripMenuItem1.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
+  <data name="laplacianToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
   <data name="imageBox1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 24</value>
-  </data>
-  <data name="&gt;&gt;sobelParametersToolStripMenuItem1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="sobelToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>Form1</value>
+  <data name="&gt;&gt;sobelToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="laplacianToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="applySobelToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
+  </data>
+  <data name="&gt;&gt;cannyParametersToolStripMenuItem1.Name" xml:space="preserve">
+    <value>cannyParametersToolStripMenuItem1</value>
   </data>
   <data name="sobelToolStripMenuItem.Text" xml:space="preserve">
     <value>Sobel</value>
@@ -167,8 +167,11 @@
   <data name="caniToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
-  <data name="&gt;&gt;salirToolStripMenuItem.Name" xml:space="preserve">
-    <value>salirToolStripMenuItem</value>
+  <data name="&gt;&gt;sobelParametersToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
   </data>
   <data name="&gt;&gt;applyLaplacianToolStripMenuItem.Name" xml:space="preserve">
     <value>applyLaplacianToolStripMenuItem</value>
@@ -182,14 +185,8 @@
   <data name="&gt;&gt;edgesToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;sobelParametersToolStripMenuItem1.Name" xml:space="preserve">
-    <value>sobelParametersToolStripMenuItem1</value>
-  </data>
   <data name="&gt;&gt;imageBox1.Type" xml:space="preserve">
     <value>Emgu.CV.UI.ImageBox, Emgu.CV.UI, Version=3.2.0.2682, Culture=neutral, PublicKeyToken=7281126722ab4438</value>
-  </data>
-  <data name="applySobelToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
   </data>
   <data name="caniToolStripMenuItem.Text" xml:space="preserve">
     <value>Canny</value>
@@ -199,6 +196,9 @@
   </data>
   <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="menuCannyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
   </data>
   <data name="&gt;&gt;sobelParametersToolStripMenuItem.Name" xml:space="preserve">
     <value>sobelParametersToolStripMenuItem</value>
@@ -223,9 +223,6 @@
   </data>
   <data name="abrirToolStripMenuItem.Text" xml:space="preserve">
     <value>Abrir</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
   </data>
   <data name="&gt;&gt;imageBox1.Name" xml:space="preserve">
     <value>imageBox1</value>
@@ -279,8 +276,8 @@
   <data name="&gt;&gt;salirToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="menuCannyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+  <data name="&gt;&gt;salirToolStripMenuItem.Name" xml:space="preserve">
+    <value>salirToolStripMenuItem</value>
   </data>
   <data name="edgesToolStripMenuItem.Text" xml:space="preserve">
     <value>Edges</value>
@@ -318,14 +315,14 @@
   <data name="sobelParametersToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
-  <data name="&gt;&gt;laplacianToolStripMenuItem1.Name" xml:space="preserve">
-    <value>laplacianToolStripMenuItem1</value>
+  <data name="archivoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Edges</value>
   </data>
-  <data name="&gt;&gt;cannyParametersToolStripMenuItem1.Name" xml:space="preserve">
-    <value>cannyParametersToolStripMenuItem1</value>
+  <data name="&gt;&gt;sobelParametersToolStripMenuItem1.Name" xml:space="preserve">
+    <value>sobelParametersToolStripMenuItem1</value>
   </data>
   <data name="&gt;&gt;laplacianToolStripMenuItem.Name" xml:space="preserve">
     <value>laplacianToolStripMenuItem</value>
@@ -360,8 +357,8 @@
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>800, 450</value>
   </data>
-  <data name="&gt;&gt;sobelParametersToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
   </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>48, 22, 48, 22</value>
@@ -374,6 +371,9 @@
   </data>
   <data name="&gt;&gt;sobelToolStripMenuItem1.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;laplacianToolStripMenuItem1.Name" xml:space="preserve">
+    <value>laplacianToolStripMenuItem1</value>
   </data>
   <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>

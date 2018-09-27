@@ -133,6 +133,15 @@
   <data name="menuCannyToolStripMenuItem.Text" xml:space="preserve">
     <value>Canny</value>
   </data>
+  <data name="applySobelToolStripMenuItem.Text" xml:space="preserve">
+    <value>Apply Sobel</value>
+  </data>
+  <data name="sobelParametersToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Sobel Parameters</value>
+  </data>
+  <data name="sobelToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Sobel</value>
+  </data>
   <data name="applyLaplacianToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>186, 22</value>
   </data>
@@ -144,24 +153,6 @@
   </data>
   <data name="laplacianToolStripMenuItem1.Text" xml:space="preserve">
     <value>Laplacian</value>
-  </data>
-  <data name="applySobelToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="applySobelToolStripMenuItem.Text" xml:space="preserve">
-    <value>Apply Sobel</value>
-  </data>
-  <data name="sobelParametersToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="sobelParametersToolStripMenuItem1.Text" xml:space="preserve">
-    <value>Sobel Parameters</value>
-  </data>
-  <data name="sobelToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="sobelToolStripMenuItem1.Text" xml:space="preserve">
-    <value>Sobel</value>
   </data>
   <data name="edgesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 19</value>
